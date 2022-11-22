@@ -1,0 +1,45 @@
+.first-content-container {
+  background-image: url("../../assets//backlogin.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 1008px;
+  width: 100%;
+}
+
+.texts-first-content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+
+  padding: 0 50px;
+}
+
+.logo-first-content-container {
+  height: 70px;
+  width: 70px;
+}
+
+.paragraph-first-content-container {
+  font-size: 3rem;
+  line-height: 1.16;
+
+  max-width: 470px;
+  width: 100%;
+
+  color: #fff;
+
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.second-content-container{
+  background-color: rgb(245, 245, 245);
+}
