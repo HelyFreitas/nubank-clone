@@ -1,9 +1,8 @@
 .first-content-container {
-  background-image: url("../../assets//backlogin.webp");
+  background-image: url("../../assets/Crop_Crop_Crop_backloginn.webp");
   background-repeat: no-repeat;
   background-size: cover;
-
-  height: 1008px;
+  height: 800px;
   width: 100%;
 }
 
@@ -18,28 +17,289 @@
   justify-content: space-between;
 
   width: 100%;
+  height: 535px;
 
-  padding: 0 50px;
+  padding: 0 56px;
+  padding-top: 8px;
 }
 
 .logo-first-content-container {
-  height: 70px;
-  width: 70px;
+  height: 45px;
+  width: 45px;
+
+  position: absolute;
+  top: 23px;
+  left: 2rem;
+
+  z-index: 1;
 }
 
 .paragraph-first-content-container {
   font-size: 3rem;
   line-height: 1.16;
+  font-weight: 500;
+  font-family: "Graphik", sans-serif;
+
+  letter-spacing: -0.03em;
 
   max-width: 470px;
   width: 100%;
 
   color: #fff;
-
-  font-weight: bold;
-  font-family: sans-serif;
 }
 
-.second-content-container{
+.second-content-container {
   background-color: rgb(245, 245, 245);
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.third-content-container {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.img-third-content-container {
+  width: 392px;
+  height: 460px;
+}
+
+.title-third-content-container {
+  width: 360px;
+
+  margin: 24px 0px;
+
+  font-family: "Graphik";
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.2;
+
+  color: inherit;
+}
+
+.paragraph-third-content-container {
+  width: 410px;
+
+  margin: 0px 0px 24px;
+
+  font-family: "Graphik";
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 1.25rem;
+  line-height: 1.22;
+
+  color: inherit;
+}
+
+.link-third-content-container {
+  text-decoration: none;
+
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+
+  font-family: "Graphik";
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.35;
+
+  color: #8225e1;
+
+  background: linear-gradient(#fff, #fff) no-repeat left 1.1em;
+  transition: background 0.3s ease;
+  background-size: 0% 3px;
+}
+
+.link-third-content-container:hover {
+  background: linear-gradient(#8225e1, #8225e1) no-repeat left 1.1em;
+  transition: all 0.3s ease;
+  background-size: 100% 2px;
+}
+
+.fifth-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.align-content-container {
+  max-width: 1240px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 200px 0;
+}
+
+.texts-fifth-content-container {
+}
+
+.title-fifth-content-container {
+  font-family: "Graphik", sans-serif;
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: rgb(17, 17, 17);
+}
+
+.paragraph-fifth-content-container {
+  width: 410px;
+
+  margin: 0px 0px 24px;
+
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 1.5rem;
+  line-height: 1.32;
+
+  color: rgb(17, 17, 17);
+}
+
+.img-numbers {
+  width: 604px;
+  height: 262px;
+}
+
+.content-limit {
+  max-width: 1000px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boneco-content-container {
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(245, 245, 245);
+
+  padding: 60px 0;
+}
+
+.align-content-boneco {
+  max-width: 1240px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-texts-content-container {
+  font-family: "Graphik", sans-serif;
+  margin: 0px 0px 32px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: rgb(17, 17, 17);
+}
+
+.paragraph-texts-content-container {
+  width: 460px;
+
+  margin: 0px 0px 24px;
+
+  color: inherit;
+
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 1.5rem;
+  line-height: 1.22;
+}
+
+.medias-content-container {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 0;
+}
+
+.align-media {
+  max-width: 1250px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-medias {
+  margin: 0px;
+
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.2;
+
+  color: rgb(17, 17, 17);
+}
+
+.img-boneco-container {
+  width: 604px;
+  height: 604px;
+}
+
+.footer {
+}
+
+.footer-container {
+  background-image: url("../../assets/homenlogin.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 660px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texts-footer-container {
+  max-width: 1240px;
+  width: 100%;
+}
+
+.title-text-footer-container {
+  width: 200px;
+
+  margin: 0px 0px 32px;
+
+  font-family: "Graphik";
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  line-height: 1.2;
+
+  color: rgb(255, 255, 255);
+}
+
+.paragraph-text-footer-container {
+  width: 280px;
+
+  margin: 0px 0px 24px;
+
+  font-family: "Graphik";
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 1.5rem;
+  line-height: 1.22;
+
+  color: rgb(255, 255, 255);
 }

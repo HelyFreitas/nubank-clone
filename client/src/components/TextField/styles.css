@@ -1,0 +1,73 @@
+.label-float {
+  position: relative;
+  padding-top: 13px;
+
+  width: 100%;
+}
+
+.label-float input {
+  border: 0;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0;
+
+  outline: none;
+
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-appearance: none;
+
+  min-width: 180px;
+  width: 100%;
+
+  padding: 8px 0;
+}
+
+.label-float input:focus {
+  border-bottom: 1px solid #111111;
+  padding: 8px 0;
+}
+
+.label-float input:hover {
+  border-bottom: 1px solid #111111;
+}
+
+.label-float input::placeholder {
+  color: transparent;
+}
+
+.label-float label {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+
+  color: #585858;
+
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Graphik", sans-serif;
+}
+
+.label-float input:required:invalid + label {
+  color: red;
+}
+
+.label-float input:focus:required:invalid {
+  border-bottom: 2px solid red;
+}
+
+.label-float input:required:invalid + label:before {
+  content: "*";
+}
+
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label {
+  font-size: 12px;
+  margin-top: 0;
+  /* color: #3951b2; */
+}

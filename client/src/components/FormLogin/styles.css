@@ -10,11 +10,27 @@
   background-color: rgb(255, 255, 255);
   max-width: 20.625rem;
 
-  gap: 20px;
+  /* gap: 40px; */
 }
 
 .title-login-container {
-  font-family: sans-serif;
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+
+  margin-bottom: 32px;
+
+  color: #111111;
+
+  letter-spacing: -0.02em;
+  line-height: 1.32;
+}
+
+.box-input-login-container {
+  padding: 16px 0;
+  margin-bottom: 24px;
+
+  width: 100%;
 }
 
 .button-login-container {
@@ -34,10 +50,15 @@
   border: none;
   border-radius: 50px;
 
-  padding: 0 20px;
+  padding: 1.5rem 0;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   font-weight: bold;
 
   color: #fff;
+
+  margin-bottom: 1rem;
 }

@@ -1,0 +1,45 @@
+.content-card-container {
+  max-width: 500px;
+  width: 100%;
+
+  padding: 64px;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-card-container {
+  margin: 0px;
+  padding-bottom: 50px;
+
+  font-size: 3rem;
+  line-height: 1.16;
+  font-family: "Graphik", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+
+  color: rgb(17, 17, 17);
+}
+
+.img1-second-content-container {
+  width: 400px;
+  height: 422px;
+}
+
+.paragraph-card-container {
+  margin: 0px;
+  padding-top: 64px;
+
+  font-family: "Graphik", sans-serif;
+  white-space: pre-line;
+  letter-spacing: -0.01em;
+  font-size: 1.125rem;
+  line-height: 1.32;
+
+  color: rgb(17, 17, 17);
+}
