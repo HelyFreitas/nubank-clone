@@ -62,3 +62,9 @@
 
   margin-bottom: 1rem;
 }
+
+.button-login-container:disabled {
+  color: rgba(17, 17, 17, 0.2);
+  background: rgba(17, 17, 17, 0.1);
+  cursor: not-allowed;
+}

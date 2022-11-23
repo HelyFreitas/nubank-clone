@@ -12,6 +12,8 @@
 
   outline: none;
 
+  font-size: 1.125rem;
+
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -36,12 +38,12 @@
   color: transparent;
 }
 
-.label-float label {
+.label-float .place-label {
   pointer-events: none;
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 13px;
+  /* margin-top: 20px; */
   transition: all 0.1s ease-out;
   -webkit-transition: all 0.1s ease-out;
   -moz-transition: all 0.1s ease-out;
@@ -53,21 +55,7 @@
   font-family: "Graphik", sans-serif;
 }
 
-.label-float input:required:invalid + label {
-  color: red;
-}
-
-.label-float input:focus:required:invalid {
-  border-bottom: 2px solid red;
-}
-
-.label-float input:required:invalid + label:before {
-  content: "*";
-}
-
-.label-float input:focus + label,
-.label-float input:not(:placeholder-shown) + label {
+.label-float input:focus + .place-label {
   font-size: 12px;
   margin-top: 0;
-  /* color: #3951b2; */
 }
